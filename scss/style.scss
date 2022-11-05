@@ -23,4 +23,81 @@ html {
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-weight: 300;
     font-style: normal;
+    background-color: #e5e5e5;
+    color: #343434;
+}
+
+body {
+    max-width: 1920px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.wrapper {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-family: 'Oswald', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding-left: 140px;
+    position: relative;
+}
+
+.title::after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #005bc1;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    margin-bottom: 13px;
+}
+
+.title::before {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background-color: #005bc1;
+    position: absolute;
+    left: 50px;
+    bottom: 15px;
+}
+
+/* --- news --- */
+
+.news {
+
+    &__inner {
+        padding: 108px 0 120px;
+    }
+
+    &__heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    &__link {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #ffffff;
+        background-color: #005bc1;
+        text-decoration: none;
+        padding: 13px 34px;
+    }
 }
