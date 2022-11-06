@@ -456,3 +456,49 @@ body {
   text-decoration: none;
   padding: 13px 34px;
 }
+.news__content {
+  display: flex;
+}
+.news__paper {
+  max-width: 540px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.news__preview {
+  padding-left: 30px;
+  width: 100%;
+}
+.news__caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 42px;
+}
+.news__subject {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.news__time {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #979797;
+}
+.news__excerpt {
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 21px;
+}
+.news__link-text {
+  display: inline-block;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343434;
+}
